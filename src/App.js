@@ -29,7 +29,7 @@ function sendEmail(e){
 
   emailjs.send("service_ixo33os","template_ce4exdg",templateParams,"gaJx8GkIMZphcCTXS")
   .then((response) => {
-      console.log("EMAIL ENVIADO")
+      alert("E-MAIL ENVIADO COM SUCESSO!")
       setEmail('')
       setName('')
       setPhone('')
