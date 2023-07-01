@@ -45,7 +45,7 @@ function sendEmail(e){
       <form className="form" onSubmit={sendEmail}>
       <button class="cti">
       <div class="CTI">
-      BEM VINDO(A) AO CHEIRO DE AMOR!
+      FAÇA SEU PEDIDO LOGO ABAIXO!
       </div>
     </button>
         <input 
