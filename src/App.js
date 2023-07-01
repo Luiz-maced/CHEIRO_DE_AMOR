@@ -76,12 +76,12 @@ function sendEmail(e){
 
         <input 
           className="input"
-          placeholder="Descreva seu pedido aqui!"
+          placeholder="Nome do Perfume"
           onChange={(e) => setMessage(e.target.value)}
           value={message}
         />
 
-<button class="button">Pode enviar :)
+<button class="button">Enviar :)
 </button>
 
       </form>
